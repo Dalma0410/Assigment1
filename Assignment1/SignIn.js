@@ -26,9 +26,6 @@ function speichern() {
 	var cell4 = row.insertCell(3);
 	cell4.innerHTML = '<button onclick="loeschen(this)"> X </button>';
 	
-	var cell5 = row.insertCell(4);
-	cell5.innerHTML = '<button onclick="edit(this)"> X </button>';
-	
 }
 
 function loeschen (x) {
