@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 SignIn.js
 var y;
  
@@ -42,6 +41,3 @@ function loeschen (x) {
 
 
 }
-=======
-SignIn.js
->>>>>>> 406497fd6438cabd0ec8ef718e5bc30157ea58e1
