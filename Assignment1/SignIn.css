@@ -1,8 +1,13 @@
 SignIn.css
 
+h1
+{
+    background-color: #38677F;
+}
+
 body
  {
-     background-color:#D7CDC2;
+     background-color:#F2F4EE;
  }
 
  label
