@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SignIn.js
 var y;
  
@@ -8,6 +9,9 @@ function speichern() {
 	
 	var nachnameInputElement = document.getElementById("nachname");
 	console.log(nachnameInputElement.value);
+
+	var emailadresseInputElement = document.getElementById ("emailadresse");
+	console.log(emailadresseInputElement.value);
 	
 	var telInputElement = document.getElementById("telefonnummer");
 	console.log(telInputElement.value);
@@ -18,13 +22,16 @@ function speichern() {
 	var row = tabelle.insertRow(1);
 	var cell1 = row.insertCell(0);
 	var cell2 = row.insertCell(1);
-	var cell3 = row.insertCell (2);
+	var cell3 = row.insertCell (2)
+	var cell4 = row.insertCell (3);
 	cell1.innerHTML = vornameInputElement.value;
 	cell2.innerHTML = nachnameInputElement.value;
-	cell3.innerHTML = telInputElement.value;
+	cell3.innerHTML = emailadresseInputElement.value;
+	cell4.innerHTML = telInputElement.value;
 	
-	var cell4 = row.insertCell(3);
-	cell4.innerHTML = '<button onclick="loeschen(this)"> X </button>';
+	
+	var cell5 = row.insertCell(4);
+	cell5.innerHTML = '<button onclick="loeschen(this)"> X </button>';
 	
 }
 
@@ -35,3 +42,6 @@ function loeschen (x) {
 
 
 }
+=======
+SignIn.js
+>>>>>>> 406497fd6438cabd0ec8ef718e5bc30157ea58e1
