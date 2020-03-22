@@ -1,1 +1,1 @@
-index.js
+script.js
