@@ -1,26 +1,52 @@
 SignIn.css
 
+header
+{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    float: right;
+    position: right;
+}
+
+.container{
+    padding: 7px 25px;
+    display: inlin-block;
+    margin: 0px; 
+    padding-left: 800px;
+}
+
+
+menu
+{
+    float: right;
+}
+
+
+
 h1
 {
-    background-color: #38677F;
+    background-color:#2980B9;
 }
 
 body
  {
      background-color:#F2F4EE;
+     margin: 0;
+    
  }
 
  label
  {
-     background-color: #A0BFBD;
+     background-color: #B2C8E6;
  }
 
  button
  {
-     background-color: #D2E2E0;
+     background-color: #B2C8E6;
  }
 
  table
  {
-     border:#6A8185;
+     border:#2980B9;
  }
