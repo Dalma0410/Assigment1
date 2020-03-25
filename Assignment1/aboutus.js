@@ -1,7 +1,6 @@
 aboutus.js
-'use strict';
 document.addEventListener('DOMContentLoaded', function () {
-	document.querySelector('#button')
+	document.querySelector('button')
 		.addEventListener('click', warnung);
 
 	function warnung() {
