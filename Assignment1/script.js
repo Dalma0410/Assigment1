@@ -16,3 +16,10 @@ script.js
 	}
 	document.addEventListener('DOMContentLoaded', init);
 }());
+
+
+
+	function fensterOeffnen() { 
+    window.open('');
+    }
+
