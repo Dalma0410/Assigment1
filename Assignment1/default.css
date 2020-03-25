@@ -6,6 +6,12 @@
 	border-radius: 10px;
 }
 
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
+
+
 
 html, body
 {
@@ -14,13 +20,13 @@ html, body
 
 body 
 {
+	background-color: white;
+	color: black;
 	margin: 0px;
 	padding: 0px;
-	background: #2C3E50;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
 	font-weight: 300;
-	color: #000000;
 }
 
 h1, h2, h3
@@ -214,10 +220,7 @@ ul.contact li a.icon-rss:before
 {
 	width: 235px;
 }
- .box1,  .box2,  .box3, {
- float: left;
- margin-right: 20px;
-}
+
 
 .box4
 {
