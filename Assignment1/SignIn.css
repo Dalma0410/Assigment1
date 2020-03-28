@@ -1,20 +1,25 @@
 SignIn.css
 
 ul :hover {
-    background-color: #2980B9;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#B8B8B8;
-    float: left;
-    border-left:1px solid #bbb;
     display: block;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
   }
 
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header-right {
+    float: right;
+  }
 
 h1
 {
