@@ -1,27 +1,19 @@
 SignIn.css
 
-header
-{
+ul :hover {
+    background-color: #2980B9;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
-    float: right;
-    position: right;
-}
-
-.container{
-    padding: 7px 25px;
-    display: inlin-block;
-    margin: 0px; 
-    padding-left: 800px;
-}
-
-
-menu
-{
-    float: right;
-}
-
+    background-color:#B8B8B8;
+    float: left;
+    border-left:1px solid #bbb;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
 
 h1
