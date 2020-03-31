@@ -1,16 +1,12 @@
 ourclients.css
-html, body
-{
-	height: 100%;
-}
-
-body 
-{
+body {
+	padding: 25px;
 	background-color: white;
 	color: black;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12pt;
-	font-weight: 300;
-}
+	font-size: 25px;
+  }
+  
+  .dark-mode {
+	background-color: black;
+	color: white;
+  }
