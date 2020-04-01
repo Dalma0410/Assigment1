@@ -1,7 +1,54 @@
 aboutus.css
 
-body 
+#menu
 {
-    background-color: #F0EBE7;
+  position: relative;
+  top: 0;
+  right: 0;
 }
+
+#menu ul
+{
+  display: inline-block;
+  padding: 1em 0em;
+  background: #3498DB;
+  border-radius: 5px;
+}
+
+#menu li
+{
+  display: block;
+  float: right;
+  text-align: center;
+}
+
+#menu li a, #menu li span
+{
+  padding: 1em 1.5em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.90em;
+  font-weight: 600;
+  color: #FFF;
+}
+
+
+.header-right {
+  float: right;
+}
+
+h1
+{
+  background-color:#2980B9;
+}
+
+body
+{
+   background-color:#F2F4EE;
+   margin: 0;
+  
+}
+
+
 
