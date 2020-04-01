@@ -1,39 +1,54 @@
 ourclients.css
-body {
-	padding: 25px;
-	background-color: white;
-	color: black;
-	font-size: 25px;
-  }
-  
-  .dark-mode {
-	background-color: black;
-	color: white;
-  }
 
-  ul 
-  {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
-  }
-
-  .header-right {
-    float: right;
-  }
-
- h1
+#menu
 {
-    background-color:#2980B9;
+  position: relative;
+  top: 0;
+  right: 0;
 }
+
+#menu ul
+{
+  display: inline-block;
+  padding: 1em 0em;
+  background: #3498DB;
+  border-radius: 5px;
+}
+
+#menu li
+{
+  display: block;
+  float: right;
+  text-align: center;
+}
+
+#menu li a, #menu li span
+{
+  padding: 1em 1.5em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.90em;
+  font-weight: 600;
+  color: #FFF;
+}
+
+
+.header-right {
+  float: right;
+}
+
+h1
+{
+  background-color:#2980B9;
+}
+
+body {
+
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white,
