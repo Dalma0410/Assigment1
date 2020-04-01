@@ -11,7 +11,8 @@ body {
 	color: white;
   }
 
-  ul :hover {
+  ul 
+  {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -31,3 +32,8 @@ body {
   .header-right {
     float: right;
   }
+
+ h1
+{
+    background-color:#2980B9;
+}
