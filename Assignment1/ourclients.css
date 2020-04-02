@@ -43,12 +43,20 @@ h1
   background-color:#2980B9;
 }
 
+h1
+{
+  background-color:#2980B9;
+}
+
 body {
 
   background-color: white;
   color: black;
+  background-color:#F2F4EE;
+  margin: 0;
 }
 
 .dark-mode {
   background-color: black;
   color: white,
+}
