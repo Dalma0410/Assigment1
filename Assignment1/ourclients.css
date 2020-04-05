@@ -1,5 +1,18 @@
 ourclients.css
 
+body {
+  padding: 0px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  margin: 0;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 #menu
 {
   position: relative;
@@ -40,22 +53,5 @@ ourclients.css
 
 h1
 {
-  background-color:#2980B9;
-}
-
-h1
-{
-  background-color:#2980B9;
-}
-
-body {
-
-  background-color: white;
-  color: black;
-  margin: 0;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white,
+  background-color: #3498DB;
 }
