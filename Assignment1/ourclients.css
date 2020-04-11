@@ -2,7 +2,7 @@ ourclients.css
 
 body {
   padding: 0px;
-  background-color: white;
+  background-color: #F2F4EE;
   color: black;
   font-size: 25px;
   margin: 0;
@@ -10,7 +10,7 @@ body {
 
 .dark-mode {
   background-color: black;
-  color: white;
+  color: #F2F4EE;
 }
 
 #menu
@@ -43,7 +43,7 @@ body {
   text-transform: uppercase;
   font-size: 0.90em;
   font-weight: 600;
-  color: #FFF;
+  color: #F2F4EE;
 }
 
 
