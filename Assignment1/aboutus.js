@@ -1,5 +1,5 @@
 aboutus.js
 
-function myFunction() {
+function anrufen() {
 	alert("Die Nummer wird angerufen");
   }
